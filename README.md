@@ -56,7 +56,7 @@ Die ASH-20 Hashfunktion nutzt verschiedene mathematische Operatoren, um die Sich
 Durch die Verwendung der Ableitungsfunktion cos wird ein Avalanche-Effekt erzeugt, bei dem kleine Änderungen im Eingabetext zu drastisch unterschiedlichen Hashwerten führen.
 
 ### XOR (Exklusives Oder): 
-Die XOR-Operation wird verwendet, um Bits im Hashwert zu kombinieren und dabei sicherzustellen, dass kleine Änderungen im Eingabetext zu unvorhersehbaren Änderungen im Hash führen.
+Die XOR-Operation wird verwendet, um Bits im Hashwert zu kombinieren und dabei sicherzustellen, dass kleine Änderungen im Eingabetext zu unvorhersehbaren Änderungen im Hash führen. Siehe [XOR-Verknüpfung](avalanchesumhash20/docs/xor_verknüpfung.pdf)
 
 ### OR (Oder):
 Die OR-Operation wird verwendet, um bestimmte Bits im Hashwert zu setzen, um die Komplexität und Sicherheit zu erhöhen.
