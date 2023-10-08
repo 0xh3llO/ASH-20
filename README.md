@@ -65,8 +65,7 @@ Die OR-Operation wird verwendet, um bestimmte Bits im Hashwert zu setzen, um die
 Die AND-Operation wird verwendet, um bestimmte Bits im Hashwert zu löschen und die Verteilung der Bits zu beeinflussen.
 
 ### Funktionen höheren Grades und quadratische Funktionen:
-Neben den grundlegenden Operationen werden auch Funktionen höheren Grades sowie quadratische Funktionen eingesetzt, um den Hash zu einem einweg Hash zu machen. Dies erhöht die Komplexität und erschwert das Zurückverfolgen des Hashwertes. Genaue beispiele siehe: [Math. Operatoren (Einwegfunktion)](
-avalanchesumhash20/docs/Math. Operatoren für Hashfunktion.pdf)
+Neben den grundlegenden Operationen werden auch Funktionen höheren Grades sowie quadratische Funktionen eingesetzt, um den Hash zu einem einweg Hash zu machen. Dies erhöht die Komplexität und erschwert das Zurückverfolgen des Hashwertes. Genaue beispiele siehe: [Math. Operatoren (Einwegfunktion)](avalanchesumhash20/docs/Math. Operatoren für Hashfunktion.pdf)
 
 ### Bitverschiebung (Shift) um 7:
 Durch die Verschiebung der Bits im Hashwert um 7 Positionen wird die Verteilung der Bits weiter verändert und die Sicherheit erhöht.
