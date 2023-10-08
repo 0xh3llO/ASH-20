@@ -12,7 +12,7 @@ bash: pip install avalanchesumhash20
 
 ## Dokumentation
 
-Eine ausführliche Dokumentation der ASH-20 Hashfunktion ist im Skript enthalten. Sie können sie finden und weitere Details in der [Script-Dokumentation](docs/script_documentation.pdf).
+Eine ausführliche Dokumentation der ASH-20 Hashfunktion ist im Skript enthalten. Sie können sie finden und weitere Details in der [Script-Dokumentation](avalanchesumhash20/docs/script_documentation.pdf).
 
 
 ## Beispiel script
