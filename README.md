@@ -12,11 +12,10 @@ bash: pip install avalanchesumhash20
 
 ## Dokumentation
 
-Eine ausführliche Dokumentation der ASH-20 Hashfunktion ist im Skript enthalten. Sie können sie finden und weitere Details in der [Script-Dokumentation](avalanchesumhash20/docs/script_documentation.pdf).
+Eine ausführliche Dokumentation der ASH-20 Hashfunktion ist im Skript enthalten. Sie können sie finden und weitere Details in der [Script-Dokumentation](docs/script_documentation.pdf).
 
 
 ## Beispiel script
-```
 from avalanchesumhash20 import AvalancheSumHash20
 
 def main():
@@ -33,7 +32,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
+
 ## Beispiel Output
 ```
 C:\Users\Joshua\OneDrive\Desktop>ASH-20
@@ -45,6 +44,34 @@ C:\Users\Joshua\OneDrive\Desktop>
 
 Das ist ein beispiel wie sie einen Text verschlüsseln können
 ```
+
+## Mathematische Operatoren
+Die ASH-20 Hashfunktion verwendet komplexe mathematische Operatoren, um eine sichere und nicht rückkehrbare Hashfunktion zu erstellen. Dies macht sie geeignet für kryptografische Anwendungen, bei denen die Integrität von Daten gewährleistet sein muss.
+
+Die ASH-20 Hashfunktion nutzt verschiedene mathematische Operatoren, um die Sicherheit und Einweg-Natur der Hashfunktion zu gewährleisten:
+
+### Avalanche: 
+Durch die Verwendung der Ableitungsfunktion cos wird ein Avalanche-Effekt erzeugt, bei dem kleine Änderungen im Eingabetext zu drastisch unterschiedlichen Hashwerten führen.
+
+### XOR (Exklusives Oder): 
+Die XOR-Operation wird verwendet, um Bits im Hashwert zu kombinieren und dabei sicherzustellen, dass kleine Änderungen im Eingabetext zu unvorhersehbaren Änderungen im Hash führen.
+
+### OR (Oder):
+Die OR-Operation wird verwendet, um bestimmte Bits im Hashwert zu setzen, um die Komplexität und Sicherheit zu erhöhen.
+
+### AND (Und):
+Die AND-Operation wird verwendet, um bestimmte Bits im Hashwert zu löschen und die Verteilung der Bits zu beeinflussen.
+
+### Funktionen höheren Grades und quadratische Funktionen:
+Neben den grundlegenden Operationen werden auch Funktionen höheren Grades sowie quadratische Funktionen eingesetzt, um den Hash zu einem einweg Hash zu machen. Dies erhöht die Komplexität und erschwert das Zurückverfolgen des Hashwertes.
+
+### Bitverschiebung (Shift) um 7:
+Durch die Verschiebung der Bits im Hashwert um 7 Positionen wird die Verteilung der Bits weiter verändert und die Sicherheit erhöht.
+
+### Modulo mit Outputlength:
+Die Anwendung des Modulo-Operators mit der Output-Length stellt sicher, dass der Hashwert innerhalb der gewünschten Länge bleibt.
+
+Zerstückung und Verkettung des Hashes: Der Hashwert wird zerstückelt und neu angeordnet, um die Einweg-Natur der Hashfunktion zu verstärken.
 
 ## Lizenz
 
