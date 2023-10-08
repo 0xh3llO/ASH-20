@@ -58,4 +58,4 @@ The hash value is divided and repositioned to increase the Einweg-Natur of the h
 ## license
 This project is licensed under the MIT license - see the [LICENSE](LICENSE)-Datei for details.
 ## contact
-Joshua Dean Pond Email: [joshua.pond11 ⁇ gmail.com](mailto:joshua.pond11@gmail.com)
+Joshua Dean Pond Email: [joshua.pond11@gmail.com](mailto:joshua.pond11@gmail.com)
