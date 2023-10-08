@@ -43,9 +43,9 @@ Eingabe-Text: Hello World
 Verschlüsselter Wert: 72730973721879097623944926376665313
 
 C:\Users\Joshua\OneDrive\Desktop>
-
-Das ist ein beispiel wie sie einen Text verschlüsseln können
 ```
+Das ist ein beispiel wie sie einen Text verschlüsseln können
+
 
 ## Mathematische Operatoren
 Die ASH-20 Hashfunktion verwendet komplexe mathematische Operatoren, um eine sichere und nicht rückkehrbare Hashfunktion zu erstellen. Dies macht sie geeignet für kryptografische Anwendungen, bei denen die Integrität von Daten gewährleistet sein muss.
