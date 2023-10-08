@@ -16,6 +16,7 @@ Eine ausführliche Dokumentation der ASH-20 Hashfunktion ist im Skript enthalten
 
 
 ## Beispiel script
+```
 from avalanchesumhash20 import AvalancheSumHash20
 
 def main():
@@ -32,7 +33,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+```
 ## Beispiel Output
 ```
 C:\Users\Joshua\OneDrive\Desktop>ASH-20
