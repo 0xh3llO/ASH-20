@@ -73,7 +73,8 @@ Durch die Verschiebung der Bits im Hashwert um 7 Positionen wird die Verteilung 
 ### Modulo mit Outputlength:
 Die Anwendung des Modulo-Operators mit der Output-Length stellt sicher, dass der Hashwert innerhalb der gewünschten Länge bleibt.
 
-Zerstückung und Verkettung des Hashes: Der Hashwert wird zerstückelt und neu angeordnet, um die Einweg-Natur der Hashfunktion zu verstärken.
+### Zerstückung und Verkettung des Hashes:
+Der Hashwert wird zerstückelt und neu angeordnet, um die Einweg-Natur der Hashfunktion zu verstärken.
 
 ## Lizenz
 
