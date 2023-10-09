@@ -53,7 +53,7 @@ In addition to the basic operations, functions of higher degrees and square func
 By shifting the bits in the hash value by 7 positions, the distribution of bits is further changed and the safety is increased.
 ### modulo with outputlength:
 The application of the Modulo-Operators with the Output-Length ensures that the hash value remains within the desired length.
-### fragmentation and chaining of the hathes:
+### fragmentation and chaining of the hashes:
 The hash value is divided and repositioned to increase the Einweg-Natur of the hash function.
 ## license
 This project is licensed under the MIT license - see the [LICENSE](LICENSE)-Datei for details.
