@@ -34,7 +34,7 @@ A detailed documentation of the ASH-20 hash function is included in the script. 
 
 This is an example of how you can encrypt a text
 ## Mathematical Operators
-The ASH-20 hash function uses complex mathematical operators to create a safe and non-traceable hash function. This makes it suitable for cryptographic applications where the integrity of data must be ensured. All mathematical aspects are explained here: [Math. Aspects](avalanchesumhash20/docs/Mathematische_Aspekte.pdf).
+The ASH-20 hash function uses complex mathematical operators to create a safe and non-traceable hash function. This makes it suitable for cryptographic applications where the integrity of data must be ensured. All mathematical aspects are explained here: [mathematical aspects](avalanchesumhash20/docs/Mathematische_Aspekte.pdf).
 
 The ASH-20 hash function uses various mathematical operators to ensure safety and Einweg-Natur hash function:
 ### Avalanche (cos function):
